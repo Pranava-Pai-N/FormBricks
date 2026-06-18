@@ -13,6 +13,7 @@ const SurveyLayout = async ({ params, children }: SurveyLayoutProps) => {
 
   const survey = await getSurvey(resolvedParams.surveyId);
   const t = await getTranslate();
+  console.log(survey);
 
   if (!survey) {
     throw new ResourceNotFoundError(t("common.survey"), resolvedParams.surveyId);

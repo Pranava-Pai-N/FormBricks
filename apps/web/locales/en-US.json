@@ -3116,6 +3116,7 @@
         },
         "randomize_all": "Randomize all",
         "randomize_all_except_last": "Randomize all except last",
+        "randomize_question_order": "Lets the user to randomise question orders for different people",
         "range": "Range",
         "recall_data": "Recall data",
         "recall_information_from": "Recall information from …",

@@ -376,6 +376,7 @@ model Survey {
   inlineTriggers      Json?
   attributeFilters    SurveyAttributeFilter[]
   displays            Display[]
+  randomOrder         Boolean                 @default(false)
   autoClose           Int?
   autoComplete        Int?
   delay               Int                     @default(0)
